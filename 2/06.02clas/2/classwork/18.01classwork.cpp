@@ -104,6 +104,5 @@ int main(){
     arr - 3;
     arr.print();
 
-    arr.
     return 0;
 }
