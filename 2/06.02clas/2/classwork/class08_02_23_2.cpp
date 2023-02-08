@@ -33,7 +33,7 @@ class SuperCalc : public Calc {
 
 };
 
-class SaveCalc : public Calc { // сохраняет последнюю операцуию
+class SaveCalc : public Calc { 
 
     private:
     std::string last_operation; 
