@@ -32,19 +32,35 @@ for i in range(0,e+1):
     print("\t\t\t",r)
 #3 задание
 print("3 zadan")
-print("Введите числа")
+print("Введите число")
+y=0
+while y != 7:
+    y=int(input()) 
+    if(y==7):
+        print("Good bue !")
+    elif(y<0):
+        print("Number is negative")
+    elif(y==0):
+        print("Number is equal to zero")
+    else:
+        print("Number is positive")
 
-y=int(input()) 
-if(y==7):
-    print("Good bue !")
-elif(y<0):
-    print("Number is negative")
-elif(y==0):
-    print("Number is equal to zero")
-else:
-    print("Number is positive")
-
-
-#3 задание
+#4 задание
 print("4 zadan")
-print("Введите числа")
+print("Введите число")
+d=0
+SS=0
+p=1
+l=1000
+while d != 7:
+    d=int(input())
+    SS+=d
+    print(SS)
+    print(max(p,d))
+    p=d
+    if(l<d):
+        print(min(l,d))
+    else:
+        l=d
+
+    
